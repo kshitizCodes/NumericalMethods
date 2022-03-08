@@ -18,8 +18,7 @@ int main() {
         else
             a = x;
         bisection(&x1, a, b, &itr);
-        if (fabs(x1 - x) < err)
-        {
+        if (fabs(x1 - x) < err) {
             printf("After %d iterations root = %6.5f\n", itr, x1);
             return 0;
         }
