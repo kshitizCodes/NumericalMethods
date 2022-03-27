@@ -1,2 +1,7 @@
 *.exe
 .vscode
+*.pdf
+*.docx
+*.py
+/.vscode
+.vscode
